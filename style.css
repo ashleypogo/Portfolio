@@ -1,0 +1,88 @@
+/* sets background image */
+body {
+  background-image: url("images/background.png");
+}
+
+/* sets header image */
+header {
+  background-image: url("images/pink-mountains.png");
+  height: 200px;
+  border-radius: 570px;
+}
+
+header h1 {
+  color:white;
+  text-align:center;
+  padding-top:60px;
+  font-family: Cursive;
+  font-size: 70px;
+  text-shadow: 0px 0px 12px #000;
+  height: 300px;
+}
+
+h2 {
+  color:white;
+  text-align:center;
+  text-shadow: 0px 0px 12px #000;
+  font-family: Cursive;
+  
+}
+
+h3 {
+  color:white;
+  font-family:Cursive;
+  text-shadow: 0px 0px 12px #000;
+}
+
+p, li {
+  font-family: Cambridge;
+  color: black;
+  font-size: 20px;
+  text-align:center;
+}
+
+.parent {
+  text-align:center;
+}
+
+
+.parent > ul {
+ margin:0;
+ padding:0;
+ list-style:none;
+}
+
+/* aligns text to center */
+.text-center {
+  text-align: center;
+}
+
+/* creates a button */
+.button {
+  display: inline-block;
+  font-family:  Cursive;
+  font-size: 13px;
+  color: white;
+  text-align: center;
+  text-decoration:none;
+  margin: 10px;
+  padding: 6px 12px;
+  border-radius: 20px;
+  background-color:rgb(101, 129, 167);
+}
+
+/* button styling */
+a:link {color:white}
+a:hover {color:pink}
+a:active {color:black}
+
+/* creates box */
+main {
+  width: 1000px;
+  margin: auto;
+  border: 3px solid #0000009a;
+  padding: 30px;
+  background-color: rgba(255,192,203,0.466);
+
+}
+
